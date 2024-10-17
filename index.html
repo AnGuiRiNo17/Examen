@@ -1,114 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Responsive Menu</title>
+    <title>Examen</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><i class="fa-solid fa-globe"></i>TI31BIS DSM</a>
+            <a class="navbar-brand" href="index.html"><i class="fa-solid fa-globe"></i>AnGuiRiNo17</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-house"></i>Home</a>
+                        <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i>About us</a>
+                        <a href="#" class="nav-link"><i class="fa-solid fa-circle-info"></i>About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i>Services</a>
+                        <a href="#" class="nav-link"><i class="fa-solid fa-gear"></i>Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i>Contact</a>
+                        <a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i>Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="IMG/img1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="IMG/img2.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="IMG/img3.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+    <div id="fullWidthSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="IMG/img1.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/img2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/img3.jpg" class="d-block w-100" alt="Slide 3">
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#fullWidthSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#fullWidthSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://cdnbatera.bateraclube.com.br/files/122/PROD_140403135546.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">The Heartbeat of Worship</h5>
-                        <p class="card-text">This drum set was a cornerstone of our church services, filling the space with uplifting rhythms that united our community in praise.
-
+    <div class="background">
+        <div>
+            <div class="articles">
+                <article>
+                    <figure>
+                        <img src="https://cdnbatera.bateraclube.com.br/files/122/PROD_140403135546.JPG" alt="The Heartbeat of Worship">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>THE HEARTBEAT OF WORSHIP</h2>
+                        <p>This drum set was a cornerstone of our church services, filling the space with uplifting rhythms that united our community in praise.
                         </p>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://www.guiltybit.com/wp-content/uploads/2022/06/Chroma-Studio-Photo.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Razer Enthusiast
-                        </h5>
-                        <p class="card-text">As a dedicated fanboy of Razer, I live for their cutting-edge gaming gear. From sleek mice to immersive headsets, Razer elevates my gaming experience to new heights!
+                </article>
+
+                <article>
+                    <figure>
+                        <img src="https://www.guiltybit.com/wp-content/uploads/2022/06/Chroma-Studio-Photo.webp" alt="Razer Enthusiast">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>RAZER ENTHUSIAST</h2>
+                        <p>As a dedicated fanboy of Razer, I live for their cutting-edge gaming gear. From sleek mice to immersive headsets, Razer elevates my gaming experience to new heights!
                         </p>
                     </div>
-                </div>
-            </div>
+                </article>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://th.bing.com/th/id/OIP.iJz_a1UwXzvlQaAX3vpRAgHaFL?w=800&h=560&rs=1&pid=ImgDetMain" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Minecraft Explorer</h5>
-                        <p class="card-text">In the vast world of Minecraft, my creativity knows no bounds! Building, crafting, and exploring with friends brings endless adventures and inspires my imagination in ways I never thought possible.
+                <article>
+                    <figure>
+                        <img src="https://th.bing.com/th/id/OIP.iJz_a1UwXzvlQaAX3vpRAgHaFL?w=800&h=560&rs=1&pid=ImgDetMain" alt="Minecraft Explorer">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>MINECRAFT EXPLORER</h2>
+                        <p>In the vast world of Minecraft, my creativity knows no bounds! Building, crafting, and exploring with friends brings endless adventures and inspires my imagination in ways I never thought possible.
                         </p>
                     </div>
-                </div>
-            </div>
+                </article>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://media.licdn.com/dms/image/D4E12AQFIkW-ZpKREpQ/article-cover_image-shrink_720_1280/0/1685413486432?e=2147483647&v=beta&t=1a_rKAGeG5EzhbSFr-mDXfbk9EJRqt86CfsxGnjiPdU" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Apple Aficionado</h5>
-                        <p class="card-text">As an Apple enthusiast, I appreciate the seamless integration and sleek design of their devices. From my iPhone to my MacBook, Apple’s innovation enhances my daily life and creativity.</p>
+                <article>
+                    <figure>
+                        <img src="https://media.licdn.com/dms/image/D4E12AQFIkW-ZpKREpQ/article-cover_image-shrink_720_1280/0/1685413486432?e=2147483647&v=beta&t=1a_rKAGeG5EzhbSFr-mDXfbk9EJRqt86CfsxGnjiPdU" alt="Apple Aficionado">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>APPLE AFICIONADO</h2>
+                        <p>As an Apple enthusiast, I appreciate the seamless integration and sleek design of their devices. From my iPhone to my MacBook, Apple’s innovation enhances my daily life and creativity.
+                        </p>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </div>
@@ -116,27 +111,27 @@
     <footer class="footer mt-auto">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4 mb-md-0">
                     <h5>About us</h5>
                     <p>We are a passionate community united by our love for music, gaming, and innovation. From uplifting church rhythms to exploring the realms of Minecraft, we embrace creativity in all its forms. As fans of Razer and Apple, we celebrate cutting-edge technology that enhances our experiences and connects us with friends. Join us on our journey of inspiration and fun!
                     </p>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4 mb-md-0">
                     <h5>Quick links</h5>
                     <ul class="list-unstyled footer-links">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="form.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h5>Follow us</h5>
                     <div class="social-icons">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
@@ -145,7 +140,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <p>&copy; <span id="year"></span> Angel Rivera, All rights reserved.</p>
+                        <p>&copy; <span id="year"></span> TI31BISDSM Developed by Angel Rivera. All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -154,8 +149,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
 </body>
+
 </html>
